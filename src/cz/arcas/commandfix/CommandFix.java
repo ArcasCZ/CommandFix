@@ -21,14 +21,14 @@ public final class CommandFix extends JavaPlugin implements Listener {
     @Override
     public void onEnable(){
         getLogger().info("Loaded");
-        getLogger().info("For Uranus-Portal.com by ArcasCZ!");
+        getLogger().info("By ArcasCZ | http://uranus-portal.com");
         getServer().getPluginManager().registerEvents(this, this);
     }
     
     @Override
     public void onDisable(){
         getLogger().info("Unloaded!");
-        getLogger().info("For Uranus-Portal.com by ArcasCZ!");         
+        getLogger().info("By ArcasCZ | http://uranus-portal.com");      
     }
     
     @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = true)
